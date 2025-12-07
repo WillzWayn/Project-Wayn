@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Wayn.com.br"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projetos
+      - href: garden/index.qmd
+        text: Digital Garden
+    right:
+      - icon: github
+        href: https://github.com/willzwayn
+      - icon: linkedin
+        href: https://linkedin.com/in/willzwayn
+
+format:
+  html:
+    theme: cosmo # Ou 'darkly', 'flatly', etc.
+    css: styles.css
+    toc: true
